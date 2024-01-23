@@ -1,6 +1,7 @@
 #!/bin/sh -l
 
 echo "Testing frontend has begun"
+apk add --update npm
 npm run test
 echo "Testing frontend has finished"
 
